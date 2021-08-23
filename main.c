@@ -14,4 +14,5 @@ int main(void)
 	printf("%f + %f = %f\n", a, b, plus(a, b));
 	printf("%f - %f = %f\n", a, b, minus(a, b));
 	printf("%f * %f = %f\n", a, b, plus(a, b));
+	printf("ycha * ycha = ycha2\n", a, b, plus(a, b));
 }
