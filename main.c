@@ -4,7 +4,7 @@
 int main(void)
 {
 	double a = 1.1;
-	double b = 3.4;
+	double b = 4.2;
 
 	plus(a, b);
 	minus(a, b);
@@ -13,5 +13,5 @@ int main(void)
 
 	printf("%f + %f = %f\n", a, b, plus(a, b));
 	printf("%f - %f = %f\n", a, b, minus(a, b));
-	printf("%f * %f = %f\n", a, b, mul(a, b));
+	printf("%f * %f = %f\n", a, b, plus(a, b));
 }
