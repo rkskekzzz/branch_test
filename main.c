@@ -6,6 +6,7 @@ int main(void)
 	double a = 4.2;
 	double b = 4.2;
 
+	a = 4.2 * 4.2;
 	plus(a, b);
 	minus(a, b);
 	mul(a, b);
