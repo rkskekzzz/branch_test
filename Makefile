@@ -9,6 +9,8 @@ OBJ		= ${SRC.c=.o}
 $(NAME): $(SRC)
 	$(CC) $(FLAG) -o $@ $^
 
-re:
-	rm -f $(NAME)
+re: clean
 	$(MAKE)
+
+clean:
+	rm -f $(NAME)
