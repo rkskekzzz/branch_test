@@ -3,16 +3,20 @@
 
 int main(void)
 {
-	double a = 1.1;
+	// make conflict start
+	double a = 4.2;
 	double b = 4.2;
+	double rst;
+	char op;
 
-	plus(a, b);
-	minus(a, b);
-	mul(a, b);
-	// div(a, b);
-
-	printf("%f + %f = %f\n", a, b, plus(a, b));
-	printf("%f - %f = %f\n", a, b, minus(a, b));
-	printf("%f * %f = %f\n", a, b, plus(a, b));
-	printf("ycha * ycha = ycha2\n", a, b, plus(a, b));
+	rst = plus(a, b);
+	op = '+';
+	printf("%f %c %f = %f\n", a, op, b, rst);
+	rst = minus(a, b);
+	op = '-';
+	printf("%f %c %f = %f\n", a, op, b, rst);
+	rst = mul(a, b);
+	op = '*';
+	printf("%f %c %f = %f\n", a, op, b, rst);
+	// make conflict end
 }
