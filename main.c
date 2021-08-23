@@ -1,7 +1,5 @@
 #include <stdio.h>
-
-double plus (double a, double b);
-double minus (double a, double b);
+#include "cal.h"
 
 int main(void)
 {
@@ -10,8 +8,10 @@ int main(void)
 
 	plus(a, b);
 	minus(a, b);
-	// mul(a, b);
+	mul(a, b);
 	// div(a, b);
 
-	printf("%f\n", plus(a, b));
+	printf("%f + %f = %f\n", a, b, plus(a, b));
+	printf("%f - %f = %f\n", a, b, minus(a, b));
+	printf("%f * %f = %f\n", a, b, mul(a, b));
 }
