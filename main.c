@@ -2,12 +2,12 @@
 
 void functionA()
 {	
-	printf("Function A in main.\n");
+	printf("Function A in dev.\n");
 }
 
 void functionB()
 {
-	printf("Function B in main.\n");
+	printf("Function B in dev.\n");
 }
 
 /**
