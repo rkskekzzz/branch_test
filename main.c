@@ -2,7 +2,7 @@
 
 void functionA()
 {	
-	printf("Function A in main2.\n");
+	printf("Function A in dev.\n");
 }
 
 void functionB()
