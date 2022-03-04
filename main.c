@@ -2,12 +2,20 @@
 
 void functionA()
 {	
-	printf("Function A in dev.\n");
+<<<<<<< HEAD
+	printf("Function A in mainmain.\n");
+=======
+	printf("Function A in test.\n");
+>>>>>>> test
 }
 
 void functionB()
 {
-	printf("Function B in dev.\n");
+<<<<<<< HEAD
+	printf("Function B in mainmain.\n");
+=======
+	printf("Function B in test.\n");
+>>>>>>> test
 }
 
 /**
